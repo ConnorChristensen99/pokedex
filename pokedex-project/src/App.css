@@ -1,0 +1,92 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  column-count: 2;
+}
+
+.bigList li{
+  background-color: black;
+  margin-bottom: 15px;
+  padding: 3%;
+  width: 150px;
+  text-transform: uppercase;
+}
+.bigList li:hover{
+  background-color: rgb(112, 110, 110);
+  cursor: pointer;
+}
+.subHeading {
+  margin-bottom: 5%;
+}
+.currentPokemon {
+  text-transform: uppercase;
+}
+.statsList {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+#card {
+  background-color: rgb(110, 110, 110);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#favoritePokemon {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  text-align: left;
+}
+#favList {
+  border: 1px solid black;
+  margin-top: 25px;
+  padding: 2%;
+}
+#favoritePokemon li{
+  border-bottom: 1px solid black;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#buttonFav {
+  margin-bottom: 10px;
+}
+#removeButton {
+  margin: 10px;
+  font-size: small;
+  padding: 10px;
+}
+#types {
+  list-style-type: none;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-bottom: 2%;
+  color: black;
+  font-size: x-large;
+}
+.pokeImage {
+  width: 200px;
+  margin: -50px;
+}
+#labels {
+  border-bottom: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: -25px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5%;
+}
+#favLabel {
+  font-size: larger;
+}
